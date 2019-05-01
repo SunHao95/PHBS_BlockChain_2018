@@ -5,8 +5,7 @@ Bitcoin futures are futures contracts that speculate on the price of Bitcoin wit
 
 In December 2017 trading in futures contracts on Bitcoins commenced on the Chicago Mercantile Exchange and the Chicago Board Options Exchange. On the December 1st, both exchanges announced a Bitcoin futures contract. Bitcoin futures opened for trading on the CBOE December 10th, 2017. This is one of the biggest milestones for bitcoin since it emerged in the wake of the 2008-2009 financial crisis. CBOE was soon joined by CME Group as it launched bitcoin futures contracts on December 18th, 2017.</br>
 </br>
-__Table 1 CBOE and CME Bitcoin Futures Contracts__</br>
-</br>
+
 | | CBOE | CME |
 |------|------|------|
 |Listing Date|December 10, 2017|Effective December 17, 2017 for trade date of December 18, 2017|
@@ -54,8 +53,6 @@ __3. Can Bitcoin perform its function of price discovery?__</br>
 
 
 ### Data
-__Table 2 Descriptive statistics for bitcoin prices and returns__</br>
-</br>
 | Panel A-*Full Sample*| Price | Return |
 |:------:|:------:|:------:|
 |Mean |9,862.048|4.26E−06|
