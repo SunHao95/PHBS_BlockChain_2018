@@ -3,8 +3,9 @@
 ## Basic Introduction of Bitcoin Futures
 Bitcoin futures are futures contracts that speculate on the price of Bitcoin without participants actually having to own Bitcoin. Entities that participate in Bitcoin futures are essentially making a bet on the price of Bitcoin over a specified period. Bitcoin futures work the same way as any futures contract on a traditional financial asset. Investors can either go long on Bitcoin — expecting the price to increase — or short it, mitigating potential losses if they actually own some Bitcoin.
 
-In December 2017 trading in futures contracts on Bitcoins commenced on the Chicago Mercantile Exchange and the Chicago Board Options Exchange. On the December 1st, both exchanges announced a Bitcoin futures contract. Bitcoin futures opened for trading on the CBOE December 10th, 2017. This is one of the biggest milestones for bitcoin since it emerged in the wake of the 2008-2009 financial crisis. CBOE was soon joined by CME Group as it launched bitcoin futures contracts on December 18th, 2017.
-
+In December 2017 trading in futures contracts on Bitcoins commenced on the Chicago Mercantile Exchange and the Chicago Board Options Exchange. On the December 1st, both exchanges announced a Bitcoin futures contract. Bitcoin futures opened for trading on the CBOE December 10th, 2017. This is one of the biggest milestones for bitcoin since it emerged in the wake of the 2008-2009 financial crisis. CBOE was soon joined by CME Group as it launched bitcoin futures contracts on December 18th, 2017.</br>
+</br>
+__Table 1 CBOE and CME Bitcoin Futures Contracts__
 | | CBOE | CME |
 |------|------|------|
 |Listing Date|December 10, 2017|Effective December 17, 2017 for trade date of December 18, 2017|
@@ -39,7 +40,7 @@ CBOE launched the first Bitcoin futures in December 2017, followed by another Ch
 ### Basic idea
 From Bitcoin’s inception in 2009 through mid-2017, its price remained under $4,000. In the second half of 2017, it climbed dramatically to nearly $20,000, but descended rapidly starting in mid-December. The peak price coincided with the introduction of bitcoin futures trading on the Chicago Mercantile Exchange. The rapid run-up and subsequent fall in the price after the introduction of futures does not appear to be a coincidence. Rather, it is consistent with trading behavior that typically accompanies the introduction of futures markets for an asset.
 
-<div align=center><img width="700" height="400"            src="https://github.com/SunHao95/PHBS_BlockChain_2018/blob/master/images/Comparison%20of%20three%20largest%20bitcoin%20price%20.jpg"/></div><div align=center> Figure 1. Comparison of three largest bitcoin price declines in 2017 </div>
+<div align=center><img width="700" height="400"            src="https://github.com/SunHao95/PHBS_BlockChain_2018/blob/master/images/Figure%201.jpg"/></div><div align=center> Figure 1. Comparison of three largest bitcoin price declines in 2017 </div>
 
 </br>
 Figure 1 shows the three largest bitcoin price declines in 2017. We scale the three series so that the peak values are equal to 100 on the peak event days. Hence, each point on the figure can be interpreted as a percent of the peak value. The horizontal axis represents the number of days before and after the peak dates. The price decline following the issuance of bitcoin futures on the CME (red line) is clearly larger than in the previous two reversals. Additionally, the two earlier decreases in prices returned to pre-crash levels in about a month. As of late April, the bitcoin price had not returned to its pre-futures peak. We can preliminarily infer that the introduction of Bitcoin futures may cast a certain influence on bitcoin price. And this is not the first time that markets observed a turning point following the introduction of a new instrument, as Fostel and Geanakoplos (2012) show for the more complex mortgage-backed securities market.</br>
@@ -52,6 +53,7 @@ __3. Can Bitcoin perform its function of price discovery?__</br>
 
 
 ### Data
+__Table 2 Descriptive statistics for bitcoin prices and returns__
 | Panel A-*Full Sample*| Price | Return |
 |:------:|:------:|:------:|
 |Mean |9,862.048|4.26E−06|
@@ -85,7 +87,11 @@ __3. Can Bitcoin perform its function of price discovery?__</br>
 |Maximum|19,665.73|0.036236|
 |Count|98,402|98,402|
 
-     
+The data is sampled at a one-minute frequency. The characteristics of Bitcoin data covering the period from the 26st of September 2017 to the 22nd of February 2018 can be found in Table 2. Statistics for the full period and for sub-samples before and after the introduction of futures trading are also presented.</br>
+Since the introduction of futures, the distribution characteristics of Bitcoin returns have changed significantly. The symbol of mean changes, and the standard deviation doubles; this variation volatility is evident in the time series of returns.
+
+<div align=center><img width="700" height="800"           src="https://github.com/SunHao95/PHBS_BlockChain_2018/blob/master/images/Figure%202.png"/></div><div align=center> Figure 2. Change point detection </div>
+
 ## Emprical Analysis
 ### Statistical View of Data        
 As it shows in the table, we can conclude that Bitcoin's return and Ether's return are left-skewed with negative skewness. On the contratry, Litecoin's return has the right-skewed distribution. All of them own the heavy-tailed distributions. <br>
