@@ -7,7 +7,7 @@ In December 2017 trading in futures contracts on Bitcoins commenced on the Chica
 </br>
 
 Table 1 CBOE and CME Bitcoin Futures Contracts
-</br>
+
 | | CBOE | CME |
 |------|------|------|
 |Listing Date|December 10, 2017|Effective December 17, 2017 for trade date of December 18, 2017|
@@ -56,7 +56,7 @@ __3. Can Bitcoin perform its function of price discovery?__</br>
 
 ### Data
 Table 2 Descriptive statistics for bitcoin prices and returns
-</br>
+
 | Panel A-*Full Sample*| Price | Return |
 |:------:|:------:|:------:|
 |Mean |9,862.048|4.26E−06|
