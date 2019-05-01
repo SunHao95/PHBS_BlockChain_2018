@@ -52,13 +52,40 @@ __3. Can Bitcoin perform its function of price discovery?__</br>
 
 
 ### Data
-| | CBOE | CME |
-|------|------|------|
-|I like |hate then |aaaaaaaaa|
+| Panel A-*Full Sample*| Price | Return |
+|:------:|:------:|:------:|
+|Mean |9,862.048|4.26E−06|
+|Median |9,291.53|1.21E−06|
+|Standard Deviation |3,984.44|0.002009|
+|Sample Variance |15,875,760|4.04E−06|
+|Kurtosis |−0.89573|11.46425|
+|Skewness |0.39184|−0.08776|
+|Minimum |3,865.23|−0.03291|
+|Maximum |19,665.73|0.036236|
+|Count |215,696|215,696|
+|Panel B-*Pre Futures Introduction*| Price | Return |
+|Mean |7,812.788|1.3E−05|
+|Median |6,671.42|1.1E−05|
+|Standard Deviation |3,559.035|0.001357|
+|Sample Variance |12,666,728|1.84E−06|
+|Kurtosis |0.845098|26.04|
+|Skewness |1.322531|−0.43248|
+|Minimum |3,865.23|−0.03166|
+|Maximum |18,018.12|0.022191|
+|Count |117,294|117,294|
+|Panel C-*Post Futures Introduction*| Price | Return |
+|Mean| 12304.74| −6.1E−06|
+|Standard Error| 9.418187| 8.22E−06|
+|Median| 11,683.09| 0.000000|
+|Standard Deviation| 2,954.4| 0.00258|
+|Sample Variance| 8,728,479 |6.66E−06|
+|Kurtosis|−0.58609|6.020228|
+|Skewness|0.302747|−0.00718|
+|Minimum|5,924.72|−0.03291|
+|Maximum|19,665.73|0.036236|
+|Count|98,402|98,402|
 
-
-                  
- 
+     
 ## Emprical Analysis
 ### Statistical View of Data        
 As it shows in the table, we can conclude that Bitcoin's return and Ether's return are left-skewed with negative skewness. On the contratry, Litecoin's return has the right-skewed distribution. All of them own the heavy-tailed distributions. <br>
