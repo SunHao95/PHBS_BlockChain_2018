@@ -41,15 +41,14 @@ From Bitcoin’s inception in 2009 through mid-2017, its price remained under $4
 
 <div align=center><img width="700" height="400"            src="https://github.com/SunHao95/PHBS_BlockChain_2018/blob/master/images/Comparison%20of%20three%20largest%20bitcoin%20price%20.jpg"/></div><div align=center> Figure 1. Comparison of three largest bitcoin price declines in 2017 </div>
 
-<br>
-Figure 1 shows the three largest bitcoin price declines in 2017. We scale the three series so that the peak values are equal to 100 on the peak event days. Hence, each point on the figure can be interpreted as a percent of the peak value. The horizontal axis represents the number of days before and after the peak dates. The price decline following the issuance of bitcoin futures on the CME (red line) is clearly larger than in the previous two reversals. Additionally, the two earlier decreases in prices returned to pre-crash levels in about a month. As of late April, the bitcoin price had not returned to its pre-futures peak. We can preliminarily infer that the introduction of Bitcoin futures may cast a certain influence on bitcoin price. And this is not the first time that markets observed a turning point following the introduction of a new instrument, as Fostel and Geanakoplos (2012) show for the more complex mortgage-backed securities market.
+</br>
+Figure 1 shows the three largest bitcoin price declines in 2017. We scale the three series so that the peak values are equal to 100 on the peak event days. Hence, each point on the figure can be interpreted as a percent of the peak value. The horizontal axis represents the number of days before and after the peak dates. The price decline following the issuance of bitcoin futures on the CME (red line) is clearly larger than in the previous two reversals. Additionally, the two earlier decreases in prices returned to pre-crash levels in about a month. As of late April, the bitcoin price had not returned to its pre-futures peak. We can preliminarily infer that the introduction of Bitcoin futures may cast a certain influence on bitcoin price. And this is not the first time that markets observed a turning point following the introduction of a new instrument, as Fostel and Geanakoplos (2012) show for the more complex mortgage-backed securities market.</br>
 
-<br>
-In the following part, I will mainly refer to *Shan, Brain, Maurice and Samuel's* paper "Bitcoin Futures—What use are they" to help illustrate the influence of Bitcoin Futures on Bitcoin. And try to answer three main questions:
-1. Will spot volatility be reduced after the introduction of Bitcoin Futures?<br>
-2. Are Bitcoin Futures effective hedging tools?<br>
-3. Can Bitcoin perform its function of price discovery?<br>
-<br>
+In the following part, I will mainly refer to *Shan, Brain, Maurice and Samuel's* paper "Bitcoin Futures—What use are they" to help illustrate the influence of Bitcoin Futures on Bitcoin. And try to answer three main questions:</br>
+1. Will spot volatility be reduced after the introduction of Bitcoin Futures?</br>
+2. Are Bitcoin Futures effective hedging tools?</br>
+3. Can Bitcoin perform its function of price discovery?</br>
+
 
 ### Models
 
