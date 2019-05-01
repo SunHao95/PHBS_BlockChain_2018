@@ -113,6 +113,7 @@ Table 3. Descriptive statistics for bitcoin prices and returns
 |Hedge Effectiveness| (semivariance) −0.38919|
 
 Two hedging approaches are evaluated by the aurthor. The first is the naïve hedge which is a portfolio with one short futures position for every Bitcoin position, while the second approach is the Ordinary Least Squares (OLS) hedge. The semi-variance is also adopted, which measures the variability of returns below the mean, addressing a shortcoming of the variance and providing a more intuitive measure of risk for hedging focused on downside risk.</br>
+</br>
 As is indicated by the negative sign of the effectiveness and risk reduction results, the hedging operation in fact surprisingly increases the risk, though the OLS hedging is more effective than the naive hedging.
 
 
@@ -120,7 +121,7 @@ As is indicated by the negative sign of the effectiveness and risk reduction res
 Table 4. Price discovery results
 
 |Information Share (Hasbruck)| Lower Bound |Upper Bound |Average|
-|------|------|------|------|
+|:------:|------|------|------|
 |Futures| 0.115535| 0.183738| 0.149637|
 |Bitcoin| 0.816261| 0.884465|0.850363|
 |__Component Share (Gonzalo)__|__Average__| | |
@@ -133,8 +134,11 @@ Table 4. Price discovery results
 |Futures|0.030034| | |
 |Bitcoin| 0.969965| | |
 
+There are two standard measures of price discovery commonly employed in the literature: the Hasbrouck (1995) Information Share (IS) and the Gonzalo and Granger (1995) Component Share (CS) measure. IS and CS, as developed by Hauptfleisch et al. (2016) using the error correction parameters and variance–covariance of the error terms from the Vector Error Correction Model (VECM)
 
-
+$\Delta_{p 1, t}=\alpha_{1}\left(p_{1, t-1}-p_{2, t-1}\right)+\sum_{i=1}^{200} \gamma_{i} \Delta p_{1, t-i}+\sum_{j=1}^{200} \delta_{j} \Delta p_{2, t-j}+\varepsilon_{1, t}$
+$\Delta_{p 2, t}=\alpha_{2}\left(p_{1, t-1}-p_{2, t-1}\right)+\sum_{k=1}^{200} \varphi_{k} \Delta p_{1, t-k}$
+$+\sum_{m=1}^{200} \phi_{m} \Delta p_{2, t-m}+\varepsilon_{2, t}$
 ## Conclusion 
 
 
