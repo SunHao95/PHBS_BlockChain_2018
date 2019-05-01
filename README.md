@@ -10,21 +10,20 @@ In December 2017 trading in futures contracts on Bitcoins commenced on the Chica
 |Ticker|XBT|BTC|
 |Contract Unit|Equal to 1 bitcoin|Equal to 5 bitcoins|
 |Description|Cboe bitcoin (USD) futures are cash-settled futures contracts that are based on the Gemini Exchange auction price for bitcoin in U.S. dollars.|CME Group's Bitcoin futures will be cash-settled, based on the CME CF Bitcoin Reference Rate (BRR) which serves as a once-a-day reference rate of the U.S. dollar price of bitcoin.|
-|Contract Unit|Equal to 1 bitcoin|Equal to 5 bitcoins|
-|Contract Unit|Equal to 1 bitcoin|Equal to 5 bitcoins|
+|Pricing|USD|USD|
+|Settlement|The final settlement value will be the auction price for bitcoin in U.S. dollars determined at 4:00 p.m. Eastern Time (2100 GMT) on the final settlement date by the Gemini Exchange.|The contract will be prices off of the CME CF Bitcoin Reference Rate (BRR) which has been designed around the IOSCO Principles for Financial Benchmarks. Bitstamp, GDAX, itBit and Kraken are the constituent exchanges that currently contribute the pricing data for calculating the BRR.|
+|Trading Hours|Regular: 8:30 a.m. to 3:15 p.m.(Mon), 8:30 a.m. to 3:15 p.m. (Tue-Fri) Extended: 5:00 p.m. (Sun) to 8:30 a.m. 3:30 p.m. (previous day) to 8:30 a.m. (Tue-Fri)
+|CME Globex and CME ClearPort: Sun-Fri 6:00 p.m. to 5:00 p.m. (5:00 p.m. to 4:00 p.m. CT) with one-hour break beginning at 5:00 p.m. (4:00 p.m. CT)|
+|Margin Rates|40%|35%|
+|Clearing|Options Clearing Corporation|CME ClearPort|
+|Contract Expirations|Initially the exchange will list three near-term serial months Eventually, CFE may list for trading up to four near-term expiration weekly contracts, three near-term serial months, and three months on the March Quarterly Cycle|Nearest 2 months in the March Quarterly cycle (Mar, Jun, Sep, Dec) plus the nearest two “serial” months not in the March Quarterly Cycle|
 
-## Data
-The data used in this project contains the returns of the Bitcoin, Ether and Litecoin, using each market’s closing prices from 2015/08/07 to 2019/04/05. The total sample of the observations of each time series is 1338. All the prices are listed in US dollars. The data is downloaded from the [CoinMarketCap website](https://coinmarketcap.com/). <br>
-![Bitcoinprice](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/Bitcoin%20price.bmp)
-![Etherprice](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/Ether%20price.bmp)
-![Litecoinprice](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/Litecoin%20price.bmp) <br>
-![Cryptocurrencyprice](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/Crptocurrency%20price.bmp) <br>
-It can be seen from the figure that the price movements of the three are very similar although Bitcoin's price is much higher than the other two. At the beginning of 2017, their prices began to rise and then grew rapidly from the second quarter of 2017, and prices fluctuated at high levels in the following six months. However, prices have fallen sharply since 2018. <br>
-Define the daily price returns of cryptocurrency i, y<sub>i,t</sub> as: y<sub>i,t</sub>=ln(p<sub>i,t</sub>)-ln(p<sub>i,t-1</sub>), where p<sub>i,t</sub> is the closing price of cryptocurrency i on day t.<br>
-![BItcoinreturnplot](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/Bitcoin%20Return%20plot.bmp)
-![Etherreturnplot](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/Ether%20Return%20plot.bmp)
-![Litecoinreturnplot](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/Litecoin%20Return%20plot.bmp) <br>
-It is obvious to observe that their returns have the volatility clustering effects which first noted as Mandelbrot (1963), that "large changes tend to be followed by large changes, of either sign, and small changes tend to be followed by small changes." So it is reasonable to capture their features with GARCH model.
+For investors looking to speculate on the price of Bitcoin without having to actually own any directly, Bitcoin futures provide a viable, regulated means to do so effectively. Further, futures can help hedge against risk against the volatile price fluctuations of Bitcoin. Bitcoin futures will bring much-needed transparency, greater liquidity and efficient price discovery to the ecosystem.
+
+Bitcoin futures provide several advantages for investors. First, they are traded on regulated exchanges, making the process much more familiar and comfortable for mainstream and institutional investors who may not want to deal directly with cryptocurrency exchanges. Second, the contracts allow for speculation on the underlying price of the asset without having to go through the process of properly storing bitcoins, which is a high barrier to entry for many people unfamiliar with how Bitcoin works. Third, by granting Bitcoin more exposure to investors, more liquidity is added to the market. Finally, futures trading can lead to less volatility of Bitcoin’s price in the long-term and enable investors to protect themselves from adverse price swings.
+
+
+## Platforms Offering Bitcoin Futures Trading
 
 ## Method
 ### Basic idea
