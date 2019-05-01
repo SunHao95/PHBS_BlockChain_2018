@@ -137,6 +137,7 @@ Table 4. Price discovery results
 There are two standard measures of price discovery commonly employed in the literature: the Hasbrouck (1995) Information Share (IS) and the Gonzalo and Granger (1995) Component Share (CS) measure. IS and CS, as developed by Hauptfleisch et al. (2016) using the error correction parameters and variance–covariance of the error terms from the Vector Error Correction Model (VECM)
 
 ![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
+
 ## Conclusion 
 
 
