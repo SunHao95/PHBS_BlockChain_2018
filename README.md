@@ -63,7 +63,7 @@ __3. Can Bitcoin perform its function of price discovery?__</br>
 |Minimum |3,865.23|−0.03291|
 |Maximum |19,665.73|0.036236|
 |Count |215,696|215,696|
-__|Panel B-*Pre Futures Introduction*| Price | Return |__
+|__Panel B-*Pre Futures Introduction*__|__Price__|__Return__|_
 |Mean |7,812.788|1.3E−05|
 |Median |6,671.42|1.1E−05|
 |Standard Deviation |3,559.035|0.001357|
@@ -73,7 +73,7 @@ __|Panel B-*Pre Futures Introduction*| Price | Return |__
 |Minimum |3,865.23|−0.03166|
 |Maximum |18,018.12|0.022191|
 |Count |117,294|117,294|
-__|Panel C-*Post Futures Introduction*| Price | Return |__
+|__Panel C-*Post Futures Introduction*__|__Price__|__Return__|
 |Mean| 12304.74| −6.1E−06|
 |Standard Error| 9.418187| 8.22E−06|
 |Median| 11,683.09| 0.000000|
