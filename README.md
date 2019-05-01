@@ -118,19 +118,20 @@ As is indicated by the negative sign of the effectiveness and risk reduction res
 
 #### Price Discovery Analysis
 Table 4. Price discovery results
-|__Information Share (Hasbruck)__| Lower Bound |Upper Bound |Average|
-|:------|------|------|------|
+
+|Information Share (Hasbruck)| Lower Bound |Upper Bound |Average|
+|------|------|------|------|
 |Futures| 0.115535| 0.183738| 0.149637|
 |Bitcoin| 0.816261| 0.884465|0.850363|
-|__Component Share (Gonzalo)__|__Average__|||
-|Futures| 0.177028|||
-|Bitcoin| 0.822971|||
-|__Information Leadership (Yan)__|__Average__|||
-|Futures| 0.025636|||
-|Bitcoin| 0.827931|||
-|__Information Leadership Share (Putnins)__|__Average__|||
-|Futures|0.030034|||
-|Bitcoin| 0.969965|||
+|__Component Share (Gonzalo)__|__Average__| | |
+|Futures| 0.177028| | |
+|Bitcoin| 0.822971| | |
+|__Information Leadership (Yan)__|__Average__| | |
+|Futures| 0.025636| | |
+|Bitcoin| 0.827931| | |
+|__Information Leadership Share (Putnins)__|__Average__| | |
+|Futures|0.030034| | |
+|Bitcoin| 0.969965| | |
 
 
 
