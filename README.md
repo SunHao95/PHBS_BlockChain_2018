@@ -6,7 +6,7 @@ Bitcoin futures are futures contracts that speculate on the price of Bitcoin wit
 In December 2017 trading in futures contracts on Bitcoins commenced on the Chicago Mercantile Exchange and the Chicago Board Options Exchange. On the December 1st, both exchanges announced a Bitcoin futures contract. Bitcoin futures opened for trading on the CBOE December 10th, 2017. This is one of the biggest milestones for bitcoin since it emerged in the wake of the 2008-2009 financial crisis. CBOE was soon joined by CME Group as it launched bitcoin futures contracts on December 18th, 2017.</br>
 </br>
 
-Table 1 CBOE and CME Bitcoin Futures Contracts
+Table 1. CBOE and CME Bitcoin Futures Contracts
 
 | | CBOE | CME |
 |------|------|------|
@@ -55,7 +55,7 @@ __3. Can Bitcoin perform its function of price discovery?__</br>
 
 
 ### Data
-Table 2 Descriptive statistics for bitcoin prices and returns
+Table 2. Descriptive statistics for bitcoin prices and returns
 
 | Panel A-*Full Sample*| Price | Return |
 |:------:|:------:|:------:|
@@ -93,7 +93,7 @@ Table 2 Descriptive statistics for bitcoin prices and returns
 The data is sampled at a one-minute frequency. The characteristics of Bitcoin data covering the period from the 26st of September 2017 to the 22nd of February 2018 can be found in Table 2. Statistics for the full period and for sub-samples before and after the introduction of futures trading are also presented.</br>
 Since the introduction of futures, the distribution characteristics of Bitcoin returns have changed significantly. The symbol of mean changes, and the standard deviation doubles; this variation volatility is evident in the time series of returns.
 
-<div align=center><img width="700" height="700"           src="https://github.com/SunHao95/PHBS_BlockChain_2018/blob/master/images/Figure%202.png"/></div><div align=center> Figure 2. Change point detection </div>
+<div align=center><img width="800" height="800"           src="https://github.com/SunHao95/PHBS_BlockChain_2018/blob/master/images/Figure%202.png"/></div><div align=center> Figure 2. Change point detection </div>
 
 ## Emprical Analysis
 ### Statistical View of Data        
