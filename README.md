@@ -147,9 +147,9 @@ A currency has three economic attributes: it is a medium of exchange, a store of
 [1]  Galina Hale et al., 2018. How Futures Trading Changed Bitcoin Prices. Economic Letter.<br>
 [2]  Shaen Corbet et al., 2018. Bitcoin Futures—What use are they? Economics Letters. 172, 23–27.<br>
 [3]  Ross, G.J., Tasoulis, D.K., Adams, N.M., 2011. Nonparametric monitoring of data streams for changes in location and scale.
-Technometrics 53 (4), 379–389.<\br>
-[4]  Ross, G.J., et al., 2015. Parametric and nonparametric sequential change detection in R: The cpm package. Journal of StatisticalS Software. 66 (3), 1–20.<\br>
-[5]  Gonzalo, J., Granger, C., 1995. Estimation of common long-memory components in cointegrated systems. Journal of Business & Economic Statistics 13 (1), 27–35.<\br>
-[6]  Hasbrouck, J., 1995. One security, many markets: Determining the contributions to price discovery. Journal of Finance. 50 (4), 1175–1199.<\br>
-[7]  Putninš, T.J., 2013. What do price discovery metrics really measure? Journal of Empirical Finance. 23, 68–83.<\br>
+Technometrics 53 (4), 379–389.<br>
+[4]  Ross, G.J., et al., 2015. Parametric and nonparametric sequential change detection in R: The cpm package. Journal of StatisticalS Software. 66 (3), 1–20.<br>
+[5]  Gonzalo, J., Granger, C., 1995. Estimation of common long-memory components in cointegrated systems. Journal of Business & Economic Statistics 13 (1), 27–35.<br>
+[6]  Hasbrouck, J., 1995. One security, many markets: Determining the contributions to price discovery. Journal of Finance. 50 (4), 1175–1199.<br>
+[7]  Putninš, T.J., 2013. What do price discovery metrics really measure? Journal of Empirical Finance. 23, 68–83.<br>
 
