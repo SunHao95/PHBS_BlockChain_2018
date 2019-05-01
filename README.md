@@ -135,21 +135,21 @@ Table 4. Price discovery results
 |Futures|0.030034| | |
 |Bitcoin| 0.969965| | |
 
-There are two standard measures of price discovery commonly employed in the literature: the Hasbrouck (1995) Information Share (IS) and the Gonzalo and Granger (1995) Component Share (CS) measure. IS and CS, as developed by Hauptfleisch et al. (2016) using the error correction parameters and variance–covariance of the error terms from the Vector Error Correction Model (VECM)
-
-![](http://latex.codecogs.com/gif.latex?\\Delta_{p 1, t}=alpha_{1}left(p_{1, t-1}-p_{2, t-1}right)+sum_{i=1}^{200} gamma_{i} Delta p_{1, t-i}+sum_{j=1}^{200} delta_{j} Delta p_{2, t-j}+ varepsilon_{1, t})
-
-![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
+There are two standard measures of price discovery commonly employed in the literature: the Hasbrouck (1995) Information Share (IS) and the Gonzalo and Granger (1995) Component Share (CS) measure. Since IS and CS are sensitive to the relative level of noise in each market A new measure, which is an appropriate combination of IS and CS, cancelling out dependence on noise (Yan and Zivot, 2010; Putninš, 2013) is developed. The combined measure is known as the Information Leadership Share (ILS).<\br>
+<\br>
+The results in Table 4 shows that spot market leads in price discovery according to all the metrics computed, which is contrary to what has been found in a range of other asset classes. Information Leadership Share indicates 97% of the information affecting Bitcoin prices is reflected in the spot market, while the remaining 3% is reflected in the futures market. The high volatility of Bitcoin spot market may be the reason.
 
 ## Conclusion 
-
+A currency has three economic attributes: it is a medium of exchange, a store of value, and a unit of account. Some scholars have asserted that Bitcoin was not a currency as it performs poorly as a unit of account and as a store of value. And the introduction of Bitcoin futures doesn't help to improve the situation. According to the spot volatility, the volatility of Bitcoin increased after the Bitcoin futures was introduced. In addtion, the hedging effectiveness is disappointing and the price discovery function cannot be realized. Therefore,  Bitcoin is a speculative asset rather than a currency is not altered by the introduction of futures trading.
 
 
 ## References
-[1]  Mandelbrot, B. B.(1963) The Variation of Certain Speculative Prices. The Journal of Business 36, No. 4,394-419.<br>
-[2]  Nader Trabelsi.(2019) Are There Any Volatility Spill-Over Effects among Cryptocurrencies and Widely Traded Asset Classes? Journal of Rish and Financial Management, 11, 66-83.<br>
-[3]  Norwegian University of Science and Technology, Multivariate DCC-GARCH Model-with various error distributions. Lecture notes.<br>
-[4]  Paraskevi Katsiampaa.(2019) Shaen Corbet, Brian Lucey. Volatility spillover effects in leading cryptocurrencies: A BEKKMGARCH
-analysis, Finance Research Letters,29, 68–74. <br>
-
+[1]  Galina Hale et al., 2018. How Futures Trading Changed Bitcoin Prices. Economic Letter.<br>
+[2]  Shaen Corbet et al., 2018. Bitcoin Futures—What use are they? Economics Letters. 172, 23–27.<br>
+[3]  Ross, G.J., Tasoulis, D.K., Adams, N.M., 2011. Nonparametric monitoring of data streams for changes in location and scale.
+Technometrics 53 (4), 379–389.
+[4]  Ross, G.J., et al., 2015. Parametric and nonparametric sequential change detection in R: The cpm package. Journal of StatisticalS Software. 66 (3), 1–20.
+[5]  Gonzalo, J., Granger, C., 1995. Estimation of common long-memory components in cointegrated systems. Journal of Business & Economic Statistics 13 (1), 27–35.
+[6]  Hasbrouck, J., 1995. One security, many markets: Determining the contributions to price discovery. Journal of Finance. 50 (4), 1175–1199.
+[7]  Putninš, T.J., 2013. What do price discovery metrics really measure? Journal of Empirical Finance. 23, 68–83.
 
