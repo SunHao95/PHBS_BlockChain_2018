@@ -1,4 +1,4 @@
-# Bitcoin Futures
+# Bitcoin Futures and Its Influence on Bitcoin
 
 ## Basic Introduction of Bitcoin Futures
 Bitcoin futures are futures contracts that speculate on the price of Bitcoin without participants actually having to own Bitcoin. Entities that participate in Bitcoin futures are essentially making a bet on the price of Bitcoin over a specified period. Bitcoin futures work the same way as any futures contract on a traditional financial asset. Investors can either go long on Bitcoin — expecting the price to increase — or short it, mitigating potential losses if they actually own some Bitcoin.
