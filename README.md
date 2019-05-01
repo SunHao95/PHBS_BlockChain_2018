@@ -46,7 +46,7 @@ Figure 1 shows the three largest bitcoin price declines in 2017. We scale the th
 </br>
 
 In the following part, I will mainly refer to *Shan, Brain, Maurice and Samuel's* paper "Bitcoin Futures—What use are they" to help illustrate the influence of Bitcoin Futures on Bitcoin. And try to answer three main questions:</br>
-__1. Will spot volatility be reduced after the introduction of Bitcoin Futures?</br>__
+__1. Will spot volatility be reduced after the introduction of Bitcoin Futures?__</br>
 __2. Are Bitcoin Futures effective hedging tools?__</br>
 __3. Can Bitcoin perform its function of price discovery?__</br>
 
