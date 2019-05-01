@@ -91,27 +91,52 @@ Table 2. Descriptive statistics for bitcoin prices and returns
 |Count|98,402|98,402|
 
 The data is sampled at a one-minute frequency. The characteristics of Bitcoin data covering the period from the 26st of September 2017 to the 22nd of February 2018 can be found in Table 2. Statistics for the full period and for sub-samples before and after the introduction of futures trading are also presented.</br>
-Since the introduction of futures, the distribution characteristics of Bitcoin returns have changed significantly. The symbol of mean changes, and the standard deviation doubles; this variation volatility is evident in the time series of returns.
+Since the introduction of futures, the distribution characteristics of Bitcoin returns have changed significantly. The symbol of mean changes, and the standard deviation doubles.
 
+### Emprical Analysis
+#### Spot Volatility Analysis
 <div align=center><img width="800" height="800"           src="https://github.com/SunHao95/PHBS_BlockChain_2018/blob/master/images/Figure%202.png"/></div><div align=center> Figure 2. Change point detection </div>
 
-## Emprical Analysis
-### Statistical View of Data        
-As it shows in the table, we can conclude that Bitcoin's return and Ether's return are left-skewed with negative skewness. On the contratry, Litecoin's return has the right-skewed distribution. All of them own the heavy-tailed distributions. <br>
+The author applied Mood statistic for changes in volatility (scale) and a Lepage-(type) statistic ( *Ross et al.* (2011) and *Ross et al.* (2015)) which tests for changes in location and scale, the results of which are presented in Figure 2. Figure 2 presents the Raw Returns Mood Statistics (Top Panel) and GARCH(1,1) Residuals Mood Statistic (Bottom Panel) respectively. The implementation of these statistics for change point detection was executed relying on the cpm package in R and is used to establish the existence and location of a change point in the Bitcoin price series. Both the Mood and Lepage statistics indicate there is a significant change in the distribution, driven by the increase in volatility.The date of the change is the 29th of November 2017, two days before the official announcement of the commencement dates for futures trading. Therefore, different from the general understanding that after the introduction of futures, the volatility of spot prices will be reduced. The introduction of Bitcoin futures actually increases the volatility of the Bitcoin.
 
-### Arch Test
+#### Hedging Effectiveness Analysis
+Table 3. Descriptive statistics for bitcoin prices and returns
 
-### Pearson correlation 
+|__Naive Hedge__||
+|:------|------|
+|Risk Reduction| −334.59|
+|Hedge Effectiveness| −3.3459|
+|Hedge Effectiveness| (semivariance) −1.20851|
+|__Rolling OLS Hedge__||
+|Risk Reduction| −60.7627|
+|Hedge Effectiveness| −0.60763|
+|Hedge Effectiveness| (semivariance) −0.38919|
+
+Two hedging approaches are evaluated by the aurthor. The first is the naïve hedge which is a portfolio with one short futures position for every Bitcoin position, while the second approach is the Ordinary Least Squares (OLS) hedge. The semi-variance is also adopted, which measures the variability of returns below the mean, addressing a shortcoming of the variance and providing a more intuitive measure of risk for hedging focused on downside risk.</br>
+As is indicated by the negative sign of the effectiveness and risk reduction results, the hedging operation in fact surprisingly increases the risk, though the OLS hedging is more effective than the naive hedging.
 
 
-#### Bitcoin and Ether
+#### Price Discovery Analysis
+Table 4. Price discovery results
+|__Information Share (Hasbruck)__| Lower Bound |Upper Bound |Average|
+|:------|------|------|------|
+|Futures| 0.115535| 0.183738| 0.149637|
+|Bitcoin| 0.816261| 0.884465|0.850363|
+|__Component Share (Gonzalo)__|__Average__|||
+|Futures| 0.177028|||
+|Bitcoin| 0.822971|||
+|__Information Leadership (Yan)__|__Average__|||
+|Futures| 0.025636|||
+|Bitcoin| 0.827931|||
+|__Information Leadership Share (Putnins)__|__Average__|||
+|Futures|0.030034|||
+|Bitcoin| 0.969965|||
 
-#### Bitcoin and Litecoin
-|
-#### Ether and Litecoin
 
 
 ## Conclusion 
+
+
 
 ## References
 [1]  Mandelbrot, B. B.(1963) The Variation of Certain Speculative Prices. The Journal of Business 36, No. 4,394-419.<br>
