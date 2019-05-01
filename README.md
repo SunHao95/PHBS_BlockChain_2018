@@ -140,7 +140,9 @@ There are two standard measures of price discovery commonly employed in the lite
 ![](http://latex.codecogs.com/gif.latex?\\Delta_{p 1, t}=\\alpha_{1}\\left(p_{1, t-1}-p_{2, t-1}\\right)+\\sum_{i=1}^{200} \\gamma_{i} \\Delta p_{1, t-i}+\\sum_{j=1}^{200} \\delta_{j} \\Delta p_{2, t-j}+\\varepsilon_{1, t})
 
 
-![](http://latex.codecogs.com/gif.latex?\\frac{\\partial J}{\\partial \\theta_k^{(j)}}=\\sum_{i:r(i,j)=1}{\\big((\\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\\big)x_k^{(i)}}+\\lambda \\xtheta_k^{(j)})
+![](http://latex.codecogs.com/gif.latex?\\frac{\\partial J}{\\partial \\theta_k^{(j)}}=\\sum_{i:r(i,j)=1{\\big((\\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\\big)x_k^{(i)}}+\\lambda \\xtheta_k^{(j)})
+
+![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
 
 ## Conclusion 
 
