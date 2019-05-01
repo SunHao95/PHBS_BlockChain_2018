@@ -92,13 +92,16 @@ Table 2. Descriptive statistics for bitcoin prices and returns
 |Count|98,402|98,402|
 
 The data is sampled at a one-minute frequency. The characteristics of Bitcoin data covering the period from the 26st of September 2017 to the 22nd of February 2018 can be found in Table 2. Statistics for the full period and for sub-samples before and after the introduction of futures trading are also presented.</br>
+</br>
 Since the introduction of futures, the distribution characteristics of Bitcoin returns have changed significantly. The symbol of mean changes, and the standard deviation doubles.
 
 ### Emprical Analysis
 #### Spot Volatility Analysis
 <div align=center><img width="800" height="800"           src="https://github.com/SunHao95/PHBS_BlockChain_2018/blob/master/images/Figure%202.png"/></div><div align=center> Figure 2. Change point detection </div>
 
-The author applied Mood statistic for changes in volatility (scale) and a Lepage-(type) statistic ( *Ross et al.* (2011) and *Ross et al.* (2015)) which tests for changes in location and scale, the results of which are presented in Figure 2. Figure 2 presents the Raw Returns Mood Statistics (Top Panel) and GARCH(1,1) Residuals Mood Statistic (Bottom Panel) respectively. The implementation of these statistics for change point detection was executed relying on the cpm package in R and is used to establish the existence and location of a change point in the Bitcoin price series. Both the Mood and Lepage statistics indicate there is a significant change in the distribution, driven by the increase in volatility.The date of the change is the 29th of November 2017, two days before the official announcement of the commencement dates for futures trading. Therefore, different from the general understanding that after the introduction of futures, the volatility of spot prices will be reduced. The introduction of Bitcoin futures actually increases the volatility of the Bitcoin.
+The author applied Mood statistic for changes in volatility (scale) and a Lepage-(type) statistic ( *Ross et al.* (2011) and *Ross et al.* (2015)) which tests for changes in location and scale, the results of which are presented in Figure 2. Figure 2 presents the Raw Returns Mood Statistics (Top Panel) and GARCH(1,1) Residuals Mood Statistic (Bottom Panel) respectively.</br>
+</br>
+The implementation of these statistics for change point detection was executed relying on the cpm package in R and is used to establish the existence and location of a change point in the Bitcoin price series. Both the Mood and Lepage statistics indicate there is a significant change in the distribution, driven by the increase in volatility.The date of the change is the 29th of November 2017, two days before the official announcement of the commencement dates for futures trading. Therefore, different from the general understanding that after the introduction of futures, the volatility of spot prices will be reduced. The introduction of Bitcoin futures actually increases the volatility of the Bitcoin.
 
 #### Hedging Effectiveness Analysis
 Table 3. Descriptive statistics for bitcoin prices and returns
