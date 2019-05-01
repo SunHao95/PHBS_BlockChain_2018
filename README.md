@@ -54,6 +54,7 @@ __2. Are Bitcoin Futures effective hedging tools?__</br>
 __3. Can Bitcoin perform its function of price discovery?__</br>
 
 
+
 ### Data
 Table 2. Descriptive statistics for bitcoin prices and returns
 
