@@ -136,9 +136,15 @@ Table 4. Price discovery results
 
 There are two standard measures of price discovery commonly employed in the literature: the Hasbrouck (1995) Information Share (IS) and the Gonzalo and Granger (1995) Component Share (CS) measure. IS and CS, as developed by Hauptfleisch et al. (2016) using the error correction parameters and variance–covariance of the error terms from the Vector Error Correction Model (VECM)
 
+\Delta_{p 1, t}=\alpha_{1}\left(p_{1, t-1}-p_{2, t-1}\right)+\sum_{i=1}^{200} \gamma_{i} \Delta p_{1, t-i}+\sum_{j=1}^{200} \delta_{j} \Delta p_{2, t-j}+\varepsilon_{1, t}
+
 $\Delta_{p 1, t}=\alpha_{1}\left(p_{1, t-1}-p_{2, t-1}\right)+\sum_{i=1}^{200} \gamma_{i} \Delta p_{1, t-i}+\sum_{j=1}^{200} \delta_{j} \Delta p_{2, t-j}+\varepsilon_{1, t}$
-$\Delta_{p 2, t}=\alpha_{2}\left(p_{1, t-1}-p_{2, t-1}\right)+\sum_{k=1}^{200} \varphi_{k} \Delta p_{1, t-k}$
-$+\sum_{m=1}^{200} \phi_{m} \Delta p_{2, t-m}+\varepsilon_{2, t}$
+
+$$\Delta_{p 1, t}=\alpha_{1}\left(p_{1, t-1}-p_{2, t-1}\right)+\sum_{i=1}^{200} \gamma_{i} \Delta p_{1, t-i}+\sum_{j=1}^{200} \delta_{j} \Delta p_{2, t-j}+\varepsilon_{1, t}$$
+
+\begin{equation}
+\Delta_{p 1, t}=\alpha_{1}\left(p_{1, t-1}-p_{2, t-1}\right)+\sum_{i=1}^{200} \gamma_{i} \Delta p_{1, t-i}+\sum_{j=1}^{200} \delta_{j} \Delta p_{2, t-j}+\varepsilon_{1, t}
+\end{equation}
 ## Conclusion 
 
 
